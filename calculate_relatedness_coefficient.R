@@ -97,7 +97,7 @@ relate_withinds <- data.frame(ind1,ind2,relate$k0,relate$k1,relate$k2)
 nine <- relate_withinds[which(relate_withinds$ind1 == 1 | relate_withinds$ind1 == 2 | relate_withinds$ind1 == 3 | relate_withinds$ind1 == 4 | relate_withinds$ind1 == 5 | relate_withinds$ind1 == 6),]
 nine <- nine[which(nine$ind2 == 7 | nine$ind2 == 8 | nine$ind2 == 9 | nine$ind2 == 10 | nine$ind2 == 11),]
 mean((nine$relate.k1/4) + (nine$relate.k2/2))
-0
+0 
 
 
 #What about within Victorville? 
