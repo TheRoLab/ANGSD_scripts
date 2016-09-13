@@ -55,4 +55,4 @@ PCA$pop <- as.factor(c(rep("10",3),rep("11",2),rep("1",8),rep("21",4), rep("39",
 PCA$color <- c(rep("green",3),rep("red",2),rep("orange",8),rep("blue",4), rep("pink", 7),rep("lightblue",4), rep("purple", 3), rep("black", 11), rep("grey",6),rep("aquamarine",10),rep("brown",2), rep("maroon",4), rep("chartreuse",5), rep("cyan",6))
 
 
-plot(PCA$V1, PCA$V2, col=PCA$color, pch=19, xlab="PC1", ylab="PC2")
+plot(PCA$V1, PCA$V2, col=PCA$color, pch=19, xlab="PC1", ylab="PC2") 
