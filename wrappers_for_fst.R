@@ -1,7 +1,7 @@
 #Wrappers for calculating Fst from multiple populations using ANGSD. To be run in R through bash wherever you are running ANGSD
 #Warning: the names get a bit messy with this file, but just pay attention to the end of the filename
 
-#start in directory with all the bamlists (alignment_out)
+#start in directory with all the bamlists (alignment_out) 
 ## Make per pop saf 
 files <- list.files(getwd())
 bamlist <-  files[grep("*_bamlist$", files)]
