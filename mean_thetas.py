@@ -12,8 +12,8 @@ Tajima = pd.DataFrame.mean(df["Tajima"])
 
 Dattempt = (pairwise - watterson)/np.sqrt(pd.DataFrame.var(df["tP"]-df["tW"]))
 
-print("Watterson's Theta = ", watterson)
-print("Pairwise Pi a.k.a. Theta pi = ", pairwise)
-print("Mean Tajima's D using Alex's Method = ", Dattempt)
-print("Mean Tajima's D using ANGSD Method = ", Tajima)
+print("Watterson's Theta =  ", watterson)
+print("Pairwise Pi a.k.a. Theta pi =  ", pairwise)
+print("Mean Tajima's D using Alex's Method =  ", Dattempt)
+print("Mean Tajima's D using ANGSD Method =  ", Tajima)
 
