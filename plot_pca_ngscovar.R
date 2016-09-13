@@ -21,7 +21,7 @@ legend("topleft", col=unique(PC$color), legend=c("10","11","1","21","39","55","9
 
 
 ##PCA for all inds
-covar <- read.table("pca_allinds.covar", stringsAsFactors = F)
+covar <- read.table("pca_allinds.covar", stringsAsFactors = F) 
 dim(covar)
 eig <- eigen(covar, symm=TRUE)
 eig$val <- eig$val/sum(eig$val)
